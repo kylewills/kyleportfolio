@@ -1,0 +1,58 @@
+#myBgVid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.MyFirstContent {
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.01);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 576px) {
+  .MyFirstContent {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.01);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .MyFirstContent {
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    background: rgba(0, 0, 0, 0.01);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn.btn-outline-light.border.rounded.links {
+    display: inherit;
+    /*width: 300px;*/
+  }
+}
+
+.btn.btn-outline-light.border.rounded.links {
+}
+
+@media (min-width: 768px) {
+  .btn.btn-outline-light.border.rounded.links {
+    display: inline;
+  }
+}
+
